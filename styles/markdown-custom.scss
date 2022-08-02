@@ -1,0 +1,29 @@
+.image-block {
+  text-align: center;
+  img {
+    margin: auto !important;
+    display: block;
+    max-width: 100%;
+  }
+  .image-caption {
+    margin: 10px 0 !important;
+    display: inline-block;
+    padding: 0 10px;
+    color: #999;
+    border-bottom: 1px solid #ccc;
+    font-size: 14px;
+  }
+}
+
+pre code {
+  display: block;
+  overflow-x: auto;
+  padding: 1em;
+}
+code {
+  padding: 3px 5px;
+}
+code {
+  background: #1e1e1e;
+  color: #dcdcdc;
+}
