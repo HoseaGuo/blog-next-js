@@ -9,7 +9,7 @@
     "start": "next start",
     "lint": "next lint",
     "###部署到服务器后利用pm2来允许项目的": "",
-    "pm2 start": "pm2 start pm2-process.json"
+    "pm2": "pm2 start pm2-process.json"
   },
   "dependencies": {
     "@emotion/css": "^11.9.0",
