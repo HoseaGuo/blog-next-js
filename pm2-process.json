@@ -1,0 +1,8 @@
+{
+  "apps": [
+    {
+      "name": "blog-next-frontend",
+      "script": "npm run start"
+    }
+  ]
+}
