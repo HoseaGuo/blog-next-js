@@ -14,7 +14,7 @@ export default class Post extends React.Component {
   getPosts = async () => {
     console.log("请求文章列表");
 
-    const { success, data, msg } = await request("http://localhost:6627/api/article");
+    const { success, data, msg } = await request("/api/article");
     if (success) {
       this.setState({
         posts: data.list,

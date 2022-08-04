@@ -6,7 +6,7 @@ import marked from '../../utils/markdown'
 
 export async function getServerSideProps(context) {
   let { uuid } = context.params
-  let { success, data } = await request(`http://localhost:6627/api/article?uuid=${uuid}`)
+  let { success, data } = await request(`/api/article?uuid=${uuid}`)
   return {
     props: {
       // id: context.params.id,

@@ -1,4 +1,8 @@
 
+let baseUrl = process.env.NODE_ENV === 'development' ? "http://localhost:6627" : "http://8.134.82.20:6627"
+
+console.log(process.env.NODE_ENV)
+
 async function request(url: string, options: any) {
   let resObj = {
     data: null,
@@ -6,6 +10,7 @@ async function request(url: string, options: any) {
     success: false
   };
   try {
+    if(!url.startsWith("http")) url = baseUrl + url;
     let response = await fetch(url);
 
     if (response.status === 200) {

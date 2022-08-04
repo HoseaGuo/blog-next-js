@@ -2,7 +2,7 @@
   "apps": [
     {
       "name": "blog-next-frontend",
-      "script": "next start"
+      "script": "npm run start"
     }
   ]
 }
