@@ -3,7 +3,6 @@
   img {
     margin: auto !important;
     display: block;
-    max-width: 100%;
   }
   .image-caption {
     margin: 10px 0 !important;
@@ -15,15 +14,12 @@
   }
 }
 
-pre code {
-  display: block;
-  overflow-x: auto;
-  padding: 1em;
-}
 code {
-  padding: 3px 5px;
-}
-code {
-  background: #1e1e1e;
-  color: #dcdcdc;
+  padding: 2px 4px;
+  background-color: #f6f6f6;
+  vertical-align: middle;
+  border: none;
+  color: #c7254e;
+  font-size: 12px;
+  white-space: pre-wrap;
 }
